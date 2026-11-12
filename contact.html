@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contatti | Casa Lilla</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      page_type: 'contact',
+      page_name: 'Contatti',
+      site_language: 'it',
+      site_environment: 'test'
+    });
+  </script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-55LDBNWG');</script>
+  <!-- End Google Tag Manager -->
+</head>
+<body data-page="contact">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55LDBNWG"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div id="site-header"></div>
+
+  <main class="container section narrow">
+    <h1>Contattaci</h1>
+    <p class="lead">Compila il modulo. Trattandosi di un sito di test, il messaggio non viene inviato a nessuno.</p>
+
+    <form id="contact-form" novalidate>
+      <label for="name">Nome</label>
+      <input type="text" id="name" name="name" required autocomplete="name">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required autocomplete="email">
+
+      <label for="topic">Argomento</label>
+      <select id="topic" name="topic" required>
+        <option value="">Scegli un argomento</option>
+        <option value="info">Informazioni sui prodotti</option>
+        <option value="ordine">Un ordine</option>
+        <option value="altro">Altro</option>
+      </select>
+
+      <label for="message">Messaggio</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <label class="check">
+        <input type="checkbox" id="privacy-ok" required>
+        <span>Ho letto l'informativa sulla privacy</span>
+      </label>
+
+      <button type="submit" class="btn">Invia messaggio</button>
+      <p id="form-feedback" class="feedback" role="status" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
