@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Casa Lilla | Sito di test</title>
+  <meta name="description" content="Sito di test per prove di tagging, consenso e dataLayer.">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      page_type: 'home',
+      page_name: 'Home',
+      site_language: 'it',
+      site_environment: 'test'
+    });
+  </script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-55LDBNWG');</script>
+  <!-- End Google Tag Manager -->
+</head>
+<body data-page="home">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55LDBNWG"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div id="site-header"></div>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <p class="eyebrow">Sito di test</p>
+          <h1>Piccole cose per la tua casa</h1>
+          <p class="lead">Un catalogo semplice per provare tag, eventi e consenso. Sfoglia i prodotti, aggiungine uno al carrello e guarda cosa succede nel dataLayer.</p>
+          <a class="btn" href="plp.html" data-cta="Scopri i prodotti" data-cta-location="hero">Scopri i prodotti</a>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section">
+      <h2>In evidenza</h2>
+      <div class="grid" id="featured-list" data-list-name="Home in evidenza"></div>
+      <p class="center"><a class="btn btn-outline" href="plp.html" data-cta="Vedi tutti i prodotti" data-cta-location="home_featured">Vedi tutti i prodotti</a></p>
+    </section>
+
+    <section class="band">
+      <div class="container band-inner">
+        <div>
+          <h2>Hai una domanda?</h2>
+          <p>Scrivici dal modulo di contatto, rispondiamo a questo sito di test quando vuoi.</p>
+        </div>
+        <a class="btn" href="contact.html" data-cta="Contattaci" data-cta-location="home_band">Contattaci</a>
+      </div>
+    </section>
+
+    <section class="container section">
+      <h2>Link esterno</h2>
+      <p>Vuoi capire come funziona la gestione del consenso? Leggi la documentazione ufficiale.</p>
+      <p><a class="btn btn-outline" href="https://doc.commandersact.com" target="_blank" rel="noopener" data-outbound="true">Vai alla documentazione</a></p>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
