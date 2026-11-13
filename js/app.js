@@ -123,7 +123,7 @@
     if (!el) { return; }
     el.innerHTML =
       '<footer class="site-footer"><div class="container footer-inner">' +
-      '<div><h4>Casa Lilla</h4><p>Sito di test per prove di tagging,<br>dataLayer e gestione del consenso.</p></div>' +
+      '<div><h4>Sito di test</h4><p>Sito di test per prove di tagging,<br>dataLayer e gestione del consenso.</p></div>' +
       '<div><h4>Naviga</h4><ul>' +
       '<li><a href="index.html">Home</a></li>' +
       '<li><a href="plp.html">Prodotti</a></li>' +
