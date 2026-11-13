@@ -131,7 +131,7 @@
       '<li><a href="contact.html">Contatti</a></li></ul></div>' +
       '<div><h4>Privacy</h4><ul>' +
       '<li><a href="#" id="open-privacy">Gestisci le preferenze sui cookie</a></li></ul></div>' +
-      '</div><div class="container footer-bottom">&copy; ' + new Date().getFullYear() + ' Casa Lilla, sito di test. Nessun acquisto reale.</div></footer>';
+      '</div><div class="container footer-bottom">&copy; ' + new Date().getFullYear() + ' sito di test. Nessun acquisto reale.</div></footer>';
   }
 
   /* ---------- Componenti ---------- */
@@ -170,7 +170,7 @@
       box.innerHTML = '<div class="empty"><h2>Prodotto non trovato</h2><p><a class="btn" href="plp.html">Torna ai prodotti</a></p></div>';
       return;
     }
-    document.title = p.name + ' | Casa Lilla';
+    document.title = p.name + ' | Sito di test';
     box.innerHTML =
       '<p class="breadcrumb"><a href="index.html">Home</a> / <a href="plp.html">Prodotti</a> / ' + p.name + '</p>' +
       '<div class="pdp">' +
