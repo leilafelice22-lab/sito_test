@@ -108,7 +108,7 @@
     if (!el) { return; }
     el.innerHTML =
       '<header class="site-header"><div class="container header-inner">' +
-      '<a class="logo" href="index.html">Casa <span>Lilla</span></a>' +
+      '<a class="logo" href="index.html">Sito <span>Test</span></a>' +
       '<nav class="nav" aria-label="Principale">' +
       '<a href="index.html"' + cls(['home']) + '>Home</a>' +
       '<a href="plp.html"' + cls(['plp', 'pdp']) + '>Prodotti</a>' +
